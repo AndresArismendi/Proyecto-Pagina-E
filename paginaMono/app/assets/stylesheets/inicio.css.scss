@@ -1,0 +1,95 @@
+// Place all the styles related to the inicio controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.foot{
+	
+	text-align: center;
+	font-size: 1rem;
+	background-color: #000;
+	color: #fff;
+	
+}
+
+.foot:hover{
+	color:#1f3;
+	
+}
+
+header{
+	font-size:  60%;
+	
+
+
+}
+.log{
+
+}
+.log:hover{
+	color:blue;
+}
+
+.bienvenido{
+
+	
+	text-decoration: none;
+	color:#000;
+	display:block;
+	font-size: 2.2rem;
+	text-align: center;
+	border: 1px solid #615F5F;
+	width: 380px;
+	height: auto;
+	margin-left:50px;
+	margin-right:50px;
+	background-color: #0FD222;
+	color:#FFF;
+	border-left: 10px solid #EE900E;
+	border-radius: 50px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+
+	transition: all 0.6s ease 0s;
+	transition-property: all;
+	transition-duration: 0.6s;
+	transition-timing-function: ease;
+	transition-delay: 0s;
+	padding-top: 50px;
+	padding-bottom:50px;	
+	padding-left:80px;
+	padding-right:80px;
+
+	height: 10%;
+	width: 20%;
+	margin: 300px;
+	margin-left: 400px;
+	
+	
+
+
+
+}
+.bienvenido:hover{
+	border-left-width: #666;
+	border-left-width:10px;
+	border-left-style: solid;
+	border-left-color: #19EE2E;
+	background-color: #0040ff;
+	border-radius: 50px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	
+	
+	height: 30%;
+	width: 30%;	
+	margin: 300px;
+	margin-left: 400px;
+	left: 20%;
+
+
+
+
+
+	}
+
