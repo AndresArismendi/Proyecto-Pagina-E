@@ -21,7 +21,15 @@ footer:hover{
 }
 
 header{
-	font-size:  60%;
+	font-size:  0.82rem;
+}
+
+.fuentedatos{
+	font-family: 'Gabriela', serif;
+
+}
+.fuentetexto{
+	font-family: 'Allan', cursive;
 }
 
 
@@ -32,11 +40,13 @@ header{
 	color:blue;
 }
 
+
+
 .bienvenido{	
 	text-decoration: none;
 	color:#000;
 	display:block;
-	font-size: 1rem;
+	font-size: 1.4rem;
 	text-align: center;
 	border: 1px solid #1993A8;
 	width: 380px;
@@ -47,11 +57,12 @@ header{
 	border-radius: 50px;
 	border-top-left-radius: 0px;
 	border-bottom-left-radius: 0px;
-	margin:0px;
-	margin-bottom: 3px;
-	transition: all 0.6s ease 0s;
+	margin:auto;
+	margin-bottom: 6px;
+	margin-top: 6px;
+	transition: all 0.5s ease 0s;
 	transition-property: all;
-	transition-duration: 0.8s;
+	transition-duration: 0.5s;
 	transition-timing-function: ease;
 	transition-delay: 0s;
 	height: 10%;
@@ -60,6 +71,7 @@ header{
 }
 
 .bienvenido:hover{
+	border:8px solid #6B1687;
 	border-left-width: #666;
 	border-left-width:5px;
 	border-left-style: solid;
@@ -77,7 +89,7 @@ header{
 	text-decoration: none;
 	color:#000;
 	display:block;
-	font-size: 1rem;
+	font-size: 1.4rem;
 	text-align: center;
 	border: 1px solid #1993A8;
 	width: 380px;
@@ -88,8 +100,9 @@ header{
 	border-radius: 50px;
 	border-top-right-radius: 0px;
 	border-bottom-right-radius: 0px;
-	margin:0px;
-	margin-bottom: 3px;
+	margin:auto;
+	margin-bottom: 6px;
+	margin-top: 6px;
 	border-top-left-radius: 30px;
 	transition: all 0.6s ease 0s;
 	transition-property: all;
@@ -102,6 +115,7 @@ header{
 }
 
 .bienvenido2:hover{
+	border:8px solid #6B1687;
 	border-right-width: #666;
 	border-right-width:5px;
 	border-right-style: solid;
