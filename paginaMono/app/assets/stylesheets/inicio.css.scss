@@ -9,19 +9,21 @@ footer{
 	font-size: 1rem;
 	background-color: #000;
 	color: #fff;
-	bottom:0;
-	position: fixed;
+	bottom:0px;
 	width: 100%;
+	padding-top: 0px;
+	margin-top: 0px;
 	
 }
 
 footer:hover{
 	color:#6B1687;
+
 	
 }
 
 header{
-	font-size:  0.82rem;
+	font-size:  0.829rem;
 }
 
 .fuentedatos{
@@ -66,26 +68,25 @@ header{
 	transition-timing-function: ease;
 	transition-delay: 0s;
 	height: 10%;
-	width: 20%;
+	width:30%;
 	
 }
 
 .bienvenido:hover{
-	border:8px solid #6B1687;
 	border-left-width: #666;
 	border-left-width:5px;
 	border-left-style: solid;
-	border-left-color: #6B1687;
+	border-left-color: #0FD222;
 	background-color: #009999 ;
-	border-radius: 50px;
 	border-top-left-radius: 0px;
 	border-bottom-left-radius: 0px;	
 	height: 30%;
-	width: 30%;	
-	left: 20%;
+	width: 50%;	
+	
 	}
 
 .bienvenido2{	
+
 	text-decoration: none;
 	color:#000;
 	display:block;
@@ -104,29 +105,69 @@ header{
 	margin-bottom: 6px;
 	margin-top: 6px;
 	border-top-left-radius: 30px;
-	transition: all 0.6s ease 0s;
+	transition: all 0.5s ease 0s;
 	transition-property: all;
-	transition-duration: 0.8s;
+	transition-duration: 0.5s;
 	transition-timing-function: ease;
 	transition-delay: 0s;
 	height: 10%;
-	width: 20%;
+	width: 42%;
 	
 }
 
 .bienvenido2:hover{
-	border:8px solid #6B1687;
 	border-right-width: #666;
-	border-right-width:5px;
+	border-right-width:3px;
 	border-right-style: solid;
-	border-right-color: #6B1687;
+	border-right-color: #0FD222;
 	background-color: #009999;
-	border-radius: 50px;
+	
 	border-top-right-radius: 0px;
 	border-bottom-right-radius: 0px;	
 	height: 30%;
-	width: 30%;	
+	width: 62%;	
+	
+	}
+
+.bienvenido3{	
+	text-decoration: none;
+	color:#000;
+	display:block;
+	font-size: 1.4rem;
+	text-align: center;
+	border: 1px solid #1993A8;
+	width: 380px;
+	height: auto;
+	background-color: #0FD222;
+	color:#FFF;
+	border-left: 4px solid #1993A8;
+	border-radius: 50px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	margin:auto;
+	margin-bottom: 6px;
+	margin-top: 6px;
+	transition: all 0.5s ease 0s;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+	transition-delay: 0s;
+	height: 10%;
+	width: 46%;
+	
+}
+
+.bienvenido3:hover{
+	border-left-width: #666;
+	border-left-width:5px;
+	border-left-style: solid;
+	border-left-color: #0FD222;
+	background-color: #009999 ;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;	
+	height: 30%;
 	left: 20%;
+	width: 66%;
 	}
 
 
